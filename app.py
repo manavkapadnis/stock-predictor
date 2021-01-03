@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import base64
-#import sys
+import sys
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.model_selection import train_test_split
 import sklearn
@@ -1128,9 +1128,9 @@ elif choices == 'Train Your Own Drogon (Machine Learning Models)':
             
 
         except:
-        #    st.markdown('There seems to be a error - **_check_ logs**')
-        #    print("Unexpected error:", sys.exc_info())
-        #    print()
+            st.markdown('There seems to be a error - **_check_ logs**')
+            print("Unexpected error:", sys.exc_info())
+            print()
 
     
         Metrics = pd.DataFrame.from_dict({(i,j): eval_metrics[i][j] 
