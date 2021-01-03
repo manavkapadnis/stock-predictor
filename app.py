@@ -1127,7 +1127,7 @@ elif choices == 'Train Your Own Drogon (Machine Learning Models)':
 
             
 
-        #except:
+        except:
         #    st.markdown('There seems to be a error - **_check_ logs**')
         #    print("Unexpected error:", sys.exc_info())
         #    print()
